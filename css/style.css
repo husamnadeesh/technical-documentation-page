@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  #main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-width: 280px;
+    max-width: 300px;
+  }
+  
+  #navbar {
+    height: 100%;
+    border-right: solid 2.5px #333;
+  }
+  @media (max-width: 600px) {
+    #main-header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin: 0;
+      max-width: 95%;
+      max-height: 400px;
+    }
+  
+    #navbar {
+      width: 100%;
+      margin: 0;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      padding: 2rem 1rem;
+      margin-top: 410px;
+    }
+  
+  }
